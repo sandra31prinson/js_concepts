@@ -1,1 +1,1 @@
-const a=10
+alert("welcome to our page")
