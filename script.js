@@ -59,3 +59,11 @@ alert("welcome to our page")
 
 document.getElementById('name').innerHTML = "sandra";
 
+document.getElementsByClassName('h11').innerHTML = "sandra";
+
+document.getElementById('mal').innerHTML = "malayalam";
+
+document.getElementsByTagName('h1')[0].innerHTML = "maliyekkal"
+
+
+
