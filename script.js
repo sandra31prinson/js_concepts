@@ -57,13 +57,20 @@ alert("welcome to our page")
 // your_name('sandra')
 
 
-document.getElementById('name').innerHTML = "sandra";
+// document.getElementById('name').innerHTML = "sandra";
 
-document.getElementsByClassName('h11').innerHTML = "sandra";
+// document.getElementsByClassName('h11').innerHTML = "sandra";
 
-document.getElementById('mal').innerHTML = "malayalam";
+// document.getElementById('mal').innerHTML = "malayalam";
 
-document.getElementsByTagName('h1')[0].innerHTML = "maliyekkal"
+// document.getElementsByTagName('h1')[0].innerHTML = "maliyekkal"
 
+
+
+// -****style manipulation ----------------*
+
+
+document.getElementById('name').style.color = "green";
+document.getElementById('name').style.animationName = "fadeInUp";
 
 
