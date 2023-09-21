@@ -73,4 +73,6 @@ alert("welcome to our page")
 document.getElementById('name').style.color = "green";
 document.getElementById('name').style.animationName = "fadeInUp";
 
+document.getElementById('img').src = "images/1.jpg"
+
 
