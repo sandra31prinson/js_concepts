@@ -22,14 +22,29 @@ alert("welcome to our page")
 
 // --------------* to add more than two value in a variable*----------------
 
-var values = {
-   nme:' Sandra',
-   age: 22,
-   place:'cherpu'
+// var values = {
+//    nme:' Sandra',
+//    age: 22,
+//    place:'cherpu'
+// }
+
+// let age = values.age
+
+// console.log(age)
+
+
+
+// -------------------* function *-----------------------
+
+
+function f1()
+{
+   document.write("enter your name");
 }
 
-console.log(values.nme);
+f1();
 
+----function with out argument ********
 
 
 
