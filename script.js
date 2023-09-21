@@ -28,7 +28,7 @@ var values = {
    place:'cherpu'
 }
 
-console.log(values);
+console.log(values.nme);
 
 
 
