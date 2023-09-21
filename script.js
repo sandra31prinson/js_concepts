@@ -37,14 +37,25 @@ alert("welcome to our page")
 // -------------------* function *-----------------------
 
 
-function f1()
-{
-   document.write("enter your name");
-}
+// function f1()
+// {
+//    document.write("enter your name");
+// }
 
-f1();
+// f1();
 
-----function with out argument ********
+// ----function with out argument ********
 
 
+// ------------------function with arguments-----------
+
+// function your_name(naam)
+// {
+//    document.write("my name is",naam);
+// }
+
+// your_name('sandra')
+
+
+document.getElementById('name').innerHTML = "sandra";
 
