@@ -15,9 +15,20 @@ alert("welcome to our page")
 // *--------------------variable declaration--------------*
 
 
-var nme = "sandra"
+// var nme = "sandra"
 
-document.write(nme)
+// document.write(nme)
+
+
+// --------------* to add more than two value in a variable*----------------
+
+var values = {
+   nme:' Sandra',
+   age: 22,
+   place:'cherpu'
+}
+
+console.log(values);
 
 
 
