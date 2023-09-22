@@ -70,9 +70,20 @@ alert("welcome to our page")
 // -****style manipulation ----------------*
 
 
-document.getElementById('name').style.color = "green";
-document.getElementById('name').style.animationName = "fadeInUp";
+// document.getElementById('name').style.color = "green";
+// document.getElementById('name').style.animationName = "fadeInUp";
 
-document.getElementById('img').src = "images/1.jpg"
+// document.getElementById('img').src = "images/1.jpg"
+
+// let myArray = ['sandra','prinson','maliyekkal'];
+
+// document.getElementById('name').innerHTML = myArray;
+// spread operators
+
+const details ={
+    name : sandra,
+    l_name : prinson,
+    age : 22
+};
 
 
