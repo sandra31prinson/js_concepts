@@ -115,9 +115,16 @@ const details ={
 
 }
 
-const{name} = details 
+// const{name} = details 
+
+// console.log(name);
+
+
+const{name,...rest} = details;
 
 console.log(name);
+console.log(rest);
+
 
 
 
