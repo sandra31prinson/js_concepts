@@ -80,10 +80,26 @@ alert("welcome to our page")
 // document.getElementById('name').innerHTML = myArray;
 // spread operators
 
-const details ={
-    name : sandra,
-    l_name : prinson,
-    age : 22
-};
+// const details ={
+//     name : "sandra",
+//     l_name : "prinson",
+//     age : 22
+// };
+
+// const data = {...details};
+// data.name = "steevo"
+
+// console.log(details);
+
+
+
+// rest operation
+
+
+const place = ["cherpu","thriprayar","thrissur"];
+
+const[first,second,third] = place;
+
+console.log(third);
 
 
