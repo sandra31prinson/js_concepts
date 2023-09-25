@@ -106,26 +106,34 @@ alert("welcome to our page")
 // rest operation  in Object
 
 
-const details ={
+// const details ={
 
-    id: 0,
-    place :'cherpu',
-    name :'sandra'
+//     id: 0,
+//     place :'cherpu',
+//     name :'sandra'
     
 
-}
+// }
 
 // const{name} = details 
 
 // console.log(name);
 
 
-const{name,...rest} = details;
+// const{name,...rest} = details;
 
-console.log(name);
-console.log(rest);
+// console.log(name);
+// console.log(rest);
 
 
+// arrow functions
+
+const myFun = () =>{
+
+    console.log("run");
+}
+
+myFun();
 
 
 
