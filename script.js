@@ -96,10 +96,29 @@ alert("welcome to our page")
 // rest operation
 
 
-const place = ["cherpu","thriprayar","thrissur"];
+// const place = ["cherpu","thriprayar","thrissur"];
 
-const[first,second,third] = place;
+// const[first,second,third] = place;
 
-console.log(third);
+// console.log(third);
+
+
+// rest operation  in Object
+
+
+const details ={
+
+    id: 0,
+    place :'cherpu',
+    name :'sandra'
+    
+
+}
+
+const{name} = details 
+
+console.log(name);
+
+
 
 
