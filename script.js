@@ -128,12 +128,23 @@ alert("welcome to our page")
 
 // arrow functions
 
-const myFun = () =>{
+// const myFun = () =>{
 
-    console.log("run");
-}
+//     console.log("run");
+// }
 
-myFun();
+// myFun();
+
+// ---------------call back functions --------------
+
+
+document.getElementById('btn').onclick = callBack;
+
+ function callBack(arg)
+ {
+
+    console.log(arg);
+ }
 
 
 
