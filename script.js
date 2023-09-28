@@ -138,13 +138,25 @@ alert("welcome to our page")
 // ---------------call back functions --------------
 
 
-document.getElementById('btn').onclick = callBack;
+// document.getElementById('btn').onclick = callBack;
 
- function callBack(arg)
- {
+//  function callBack(arg)
+//  {
 
+//     console.log(arg);
+//  }
+
+
+// -------synchornous call back function-----------
+
+const a =['1','2','3'];
+
+function callBack(arg)
+{
     console.log(arg);
- }
 
+}
+
+a.forEach(callBack);
 
 
