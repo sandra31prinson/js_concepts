@@ -149,14 +149,26 @@ alert("welcome to our page")
 
 // -------synchornous call back function-----------
 
-const a =['1','2','3'];
+// const a =['1','2','3'];
 
-function callBack(arg)
-{
-    console.log(arg);
+// function callBack(arg)
+// {
+//     console.log(arg);
 
-}
+// }
 
-a.forEach(callBack);
+// a.forEach(callBack);
 
+
+// ----- for each iteration----------
+
+
+const nme = ['sandra','steevo','tessy','prinson']
+
+ function myNme(name)
+ {
+    console.log("my name is",name)
+ }
+
+ nme.forEach(myNme)
 
