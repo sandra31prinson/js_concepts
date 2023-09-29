@@ -176,10 +176,17 @@
 
 // ----------arrow function-----
 
-const myFun = (a,b) => a*b;
+// const myFun = (a,b) => a*b;
 
-const val = myFun(3,5);
+// const val = myFun(3,5);
 
-console.log(val);
+// console.log(val);
 
 
+const fun = (a,b) => {
+
+    return a*b;
+}
+
+const mul = fun(3,5);
+console.log(mul);
