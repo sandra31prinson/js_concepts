@@ -1,4 +1,4 @@
-alert("welcome to our page")
+// alert("welcome to our page")
 
 
 // *-------array declaration ------------*
@@ -163,12 +163,23 @@ alert("welcome to our page")
 // ----- for each iteration----------
 
 
-const nme = ['sandra','steevo','tessy','prinson']
+// const alpha =['a','b','c','d']
 
- function myNme(name)
- {
-    console.log("my name is",name)
- }
+// function myAlpha(bets)
+// {
+//     console.log(bets)
+// }
 
- nme.forEach(myNme)
+// alpha.forEach(myAlpha);
+
+
+
+// ----------arrow function-----
+
+const myFun = (a,b) => a*b;
+
+const val = myFun(3,5);
+
+console.log(val);
+
 
