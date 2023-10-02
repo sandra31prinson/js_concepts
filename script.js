@@ -183,10 +183,27 @@
 // console.log(val);
 
 
-const fun = (a,b) => {
+// const fun = (a,b) => {
 
-    return a*b;
+//     return a*b;
+// }
+
+// const mul = fun(3,5);
+// console.log(mul);
+
+// ------------clousure----------
+
+
+function add (a ,b){
+
+    const c =a+b
+    return c;
 }
 
-const mul = fun(3,5);
-console.log(mul);
+function main()
+{
+    const res = add(3,4)
+    console.log(res)
+}
+
+main();
