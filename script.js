@@ -247,7 +247,7 @@ var obj = [
 ];
 
 
-var found = obj.find((item)=>{
+var found = obj.filter((item)=>{
 
     return item.age <25;
    
