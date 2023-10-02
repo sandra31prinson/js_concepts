@@ -246,12 +246,11 @@ var obj = [
     }
 ];
 
-let sum=0;
-obj.forEach((item)=>
-{
-    sum=sum+item.age;
 
-    
+var found = obj.find((item)=>{
 
+    return item.name ==='san';
+   
 })
-console.log(sum);
+
+ console.log(found);
