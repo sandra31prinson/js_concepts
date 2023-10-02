@@ -232,33 +232,26 @@
 var obj = [
     {
         name:'sandra',
-        place:'cherpu',
         age:22
     },
     {
-        name:'steevo',
-        place:'thrissur',
-        age:18 
-    }
-    ,
-    {
-        name:'sayanth',
-        place:'kodugallor',
-        age:23
+        name:'sneha',
+        age:21,
+
     },
 
     {
-        name:'sneha',
-        place:'athani',
-        age:21
+        name:'athulya',
+        age:'20'
     }
 ];
 
-
- 
-obj.forEach
-((items) =>
+let sum=0;
+obj.forEach((item)=>
 {
-    console.log(items.name);
-});
+    sum=sum+item.age;
 
+    
+
+})
+console.log(sum);
