@@ -193,33 +193,72 @@
 
 // ------------clousure----------
 
-var objs = [
+// var objs = [
 
-   { name: 'I',
-    msg : 'hi...i,m sandra'
-},
-{
-    name:'About',
-    msg :'web developer'
-},
+//    { name: 'I',
+//     msg : 'hi...i,m sandra'
+// },
+// {
+//     name:'About',
+//     msg :'web developer'
+// },
+// ];
+
+// function main()
+// {
+//     objs.forEach((item)=>
+//     {
+//         const bt = document.createElement('button');
+//         bt.innerHTML =item.name;
+//         bt.onclick = getCallBack(item.msg);
+//         document.body.appendChild(bt);
+
+//     });
+// }
+
+// function getCallBack(arg) {
+//     return function()
+//     {
+//         alert(arg);
+//     }
+// }
+// main();
+
+
+
+// ----------------for each functuin ------------
+
+
+var obj = [
+    {
+        name:'sandra',
+        place:'cherpu',
+        age:22
+    },
+    {
+        name:'steevo',
+        place:'thrissur',
+        age:18 
+    }
+    ,
+    {
+        name:'sayanth',
+        place:'kodugallor',
+        age:23
+    },
+
+    {
+        name:'sneha',
+        place:'athani',
+        age:21
+    }
 ];
 
-function main()
+
+ 
+obj.forEach
+((items) =>
 {
-    objs.forEach((item)=>
-    {
-        const bt = document.createElement('button');
-        bt.innerHTML =item.name;
-        bt.onclick = getCallBack(item.msg);
-        document.body.appendChild(bt);
+    console.log(items.name);
+});
 
-    });
-}
-
-function getCallBack(arg) {
-    return function()
-    {
-        alert(arg);
-    }
-}
-main();
