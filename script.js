@@ -249,7 +249,7 @@ var obj = [
 
 var found = obj.find((item)=>{
 
-    return item.name ==='san';
+    return item.name ==='sandra';
    
 })
 
