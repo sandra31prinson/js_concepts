@@ -229,28 +229,46 @@
 // ----------------for each functuin ------------
 
 
-var obj = [
-    {
-        name:'sandra',
-        age:22
-    },
-    {
-        name:'sneha',
-        age:21,
+// var obj = [
+//     {
+//         name:'sandra',
+//         age:22
+//     },
+//     {
+//         name:'sneha',
+//         age:21,
 
-    },
+//     },
 
-    {
-        name:'athulya',
-        age:'20'
-    }
-];
+//     {
+//         name:'athulya',
+//         age:'20'
+//     }
+// ];
 
 
-var found = obj.filter((item)=>{
+// var found = obj.filter((item)=>{
 
-    return item.age <25;
+//     return item.age <25;
    
-})
+// })
 
- console.log(found);
+//  console.log(found);
+
+
+
+// ----------------nexted destructureing----------
+
+
+var obj = {
+    name : 'sandra',
+    age  :22,
+    place : 'cherpu'
+}
+
+var {
+    name
+} = obj ;
+
+
+console.log (name);
