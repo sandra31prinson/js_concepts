@@ -263,12 +263,19 @@
 var obj = {
     name : 'sandra',
     age  :22,
-    place : 'cherpu'
+    place : 'cherpu',
+
+    subject:{
+        teacher: 'bob',
+        sub:'maths'
+    }
 }
 
 var {
-    name
+    subject:{
+        sub
+    }
 } = obj ;
 
 
-console.log (name);
+console.log (sub);
