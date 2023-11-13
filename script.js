@@ -78,6 +78,10 @@
 // let myArray = ['sandra','prinson','maliyekkal'];
 
 // document.getElementById('name').innerHTML = myArray;
+
+
+
+
 // spread operators
 
 // const details ={
@@ -260,22 +264,253 @@
 // ----------------nexted destructureing----------
 
 
-var obj = {
-    name : 'sandra',
-    age  :22,
-    place : 'cherpu',
+// var obj = {
+//     name : 'sandra',
+//     age  :22,
+//     place : 'cherpu',
 
-    subject:{
-        teacher: 'bob',
-        sub:'maths'
-    }
+//     subject:{
+//         teacher: 'bob',
+//         sub:'maths'
+//     }
+// }
+
+// var {
+//     subject:{
+//         sub
+//     }
+// } = obj ;
+
+
+// console.log (sub);
+
+
+
+
+
+// **********variable dclaration----------
+// ********Object={*********}
+
+
+// let details = {
+//    nme : 'sandra',
+//    age :22,
+
+//    subject:{
+//       one:'eng',
+//       two:'mal'
+//    }
+
+// }
+
+// console.log(details.subject.one)
+
+
+
+// function sandra()
+// {
+
+//    console.log("hi...its sandra");
+// }
+
+// sandra()
+
+
+
+// let a =5;
+// let b=5;
+
+// function add()
+// {
+//    console.log(a+b);
+// }
+
+// add()
+
+
+
+// function add(name)
+// {
+
+//    document.write(name)
+   
+// }
+
+// add('sandra')
+
+
+
+// document.getElementById('name').innerHTML = "sandra";
+
+// document.getElementsByClassName('h11').innerHTML = "sandra";
+
+
+
+// document.getElementById('mal').innerHTML = "malayalam";
+
+//  document.getElementsByTagName('h1')[0].innerHTML = "maliyekkal"
+
+
+
+
+
+
+//  document.getElementById('name').style.color = "green";
+//  document.getElementById('name').style.animationName = "fadeInUp";
+
+// document.getElementById('img').src = "images/1.jpg"
+
+
+
+// const details = {
+
+//    name: 'sandra',
+//    age :22
+// }
+
+// const info ={...details};
+// info.name = 'steevo';
+
+// console.log(info)
+
+
+// const arr =['sandra','steevo','prinson','tessy'];
+
+// const family =[...arr,'cherpu'];
+ 
+
+//  console.log(family)
+
+
+// const rwst ={
+
+//    name:'sandra',
+//    age :22,
+
+// }
+
+// const {age,...rest}=rwst
+
+// console.log(rwst)
+
+
+// const arr =['sandra','steevo','tessy','prinson'];
+
+// const [first , second, thrid, forth]=arr;
+
+// const[sandra,...rest]=arr;
+
+// console.log(rest)
+
+// let add =(a,b)=>
+// {
+//     sum= a+b;
+//     console.log(sum)
+// }
+
+// add(3,5)
+
+
+// const rwst ={
+
+//    name:'sandra',
+//    age :22,
+
+// }
+
+// console.log(rwst.name,rwst.age);
+
+
+
+// const cars = ["Saab", "Volvo", "BMW"];
+
+// console.log(cars[0])
+
+
+// function re(a,b){
+
+//    return a*b
+
+   
+
+// }
+
+// console.log(re(5,5))
+
+
+
+
+// -----spread operators----
+
+
+
+
+
+// rest-----
+
+
+// let hello ={name :'steev'
+//             ,age :12,
+//          }
+
+
+
+// -----spread operator----
+let hel ={name:'san'
+            ,age:22,};
+
+
+let hello={...hel};
+
+hello.name='stee'
+
+
+console.log(hel)
+console.log(hello)
+
+
+let det=['sandra',22,'cherpu'];
+
+let deta={...det};
+
+deta=[...det,'maliyekkal']
+
+console.log(deta)
+
+
+
+
+// -----rest operator=----
+
+// -----destructureing----
+
+
+const data = ['one','two','three'];
+
+const[k,l,m]=data;
+
+console.log(k);
+
+
+
+const de ={
+   name:'sa',
+   age:23,
+   place:'cherpu'
 }
 
-var {
-    subject:{
-        sub
-    }
-} = obj ;
+
+// const{name,age,place}=de
+
+const{age,...rest}=de
+
+console.log(age);
+
+console.log(rest);
 
 
-console.log (sub);
+// ----rest---
+
+
+
+
