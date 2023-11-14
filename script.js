@@ -456,26 +456,26 @@
 
 
 // -----spread operator----
-let hel ={name:'san'
-            ,age:22,};
+// let hel ={name:'san'
+//             ,age:22,};
 
 
-let hello={...hel};
+// let hello={...hel};
 
-hello.name='stee'
-
-
-console.log(hel)
-console.log(hello)
+// hello.name='stee'
 
 
-let det=['sandra',22,'cherpu'];
+// console.log(hel)
+// console.log(hello)
 
-let deta={...det};
 
-deta=[...det,'maliyekkal']
+// let det=['sandra',22,'cherpu'];
 
-console.log(deta)
+// let deta={...det};
+
+// deta=[...det,'maliyekkal']
+
+// console.log(deta)
 
 
 
@@ -485,28 +485,28 @@ console.log(deta)
 // -----destructureing----
 
 
-const data = ['one','two','three'];
+// const data = ['one','two','three'];
 
-const[k,l,m]=data;
+// const[k,l,m]=data;
 
-console.log(k);
+// console.log(k);
 
 
 
-const de ={
-   name:'sa',
-   age:23,
-   place:'cherpu'
-}
+// const de ={
+//    name:'sa',
+//    age:23,
+//    place:'cherpu'
+// }
 
 
 // const{name,age,place}=de
 
-const{age,...rest}=de
+// const{age,...rest}=de
 
-console.log(age);
+// console.log(age);
 
-console.log(rest);
+// console.log(rest);
 
 
 // ----rest---
@@ -529,15 +529,53 @@ console.log(rest);
 // ------arrow function----
 
 
-sandra=()=>10+5;
+// sandra=()=>10+5;
 
    
 
-console.log(sandra());
+// console.log(sandra());
 
-steevo=()=>console.log('i"m steevo');
+// steevo=()=>console.log('i"m steevo');
 
-steevo();
+// steevo();
+
+
+
+let student=[
+{
+   
+      id:'sandra',
+      age:22,
+      place:'thrissur'
+},
+      {
+         id:'steevo',
+         age:19,
+         place:'thrissur'
+     
+      },
+
+      {
+         id:'prinson',
+         age:52,
+         place:'thrissur'
+     
+      }
+
+
+  
+   ]
+
+
+   // for(let i=0; i<student.length; i++)
+   // {
+   //    console.log(student[i]);
+   // }
+
+   student.forEach((value,index,Array)=>console.log(value.id));
+
+  
+
 
 
 
