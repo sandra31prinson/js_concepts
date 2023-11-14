@@ -512,5 +512,36 @@ console.log(rest);
 // ----rest---
 
 
+// const sandra =['sandra',23,'thrissur'];
+// const dat=[...sandra,'hi'];
+// console.log(dat);
+
+
+// const steevo =['steevo',19,'thrissur']
+
+// const[a, b, n]=steevo;
+// const ste=[...steevo];
+// console.log(a,...steevo);
+
+// console.log(ste);
+
+
+// ------arrow function----
+
+
+sandra=()=>10+5;
+
+   
+
+console.log(sandra());
+
+steevo=()=>console.log('i"m steevo');
+
+steevo();
+
+
+
+
+
 
 
