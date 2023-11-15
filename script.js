@@ -653,6 +653,27 @@ let student=[
 // -------------es10 syntax-----
 
 
-const  nextedArray =[15,20,[25,35],21,33];
+// const  nextedArray =[15,20,[25,35],21,33];
 
-console.log(nextedArray.flat(Infinity));
+// console.log(nextedArray.flat(Infinity));
+
+
+
+// -------es10 chaining-----------
+
+const employee={
+
+   id:1,
+   name:'sanjay',
+   place:'thrissur',
+   company:{
+      comName:'woxro'
+   }
+
+}
+   if(employee?.company?.comName);
+   {
+      console.log(employee.company.comName);
+
+   }
+
