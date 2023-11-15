@@ -590,14 +590,20 @@ let student=[
 // ------map methode-----
 
 
-const newArray = student.map((value)=>value.place)
+// const newArray = student.map((value)=>value.place)
+
+// console.log(newArray);
+
+
+// const dete = arr.map((value)=>value);
+// console.log(dete)
+
+
+
+// -----fillter-----
+const newArray = student.filter((value)=>value.id==='sandra');
 
 console.log(newArray);
-
-
-const dete = arr.map((value)=>value);
-console.log(dete)
-
 
 
 
