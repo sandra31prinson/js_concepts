@@ -679,8 +679,33 @@
 //  document.querySelector(".dom").style.color="green";
 
 
-console.log('hiiiii');
+// console.log('hiiiii');
 
 
 
-setTimeout(()=>console.log('sandra'),5000);
+// setTimeout(()=>console.log('sandra'),5000);
+
+
+
+// ----------callbacks------
+
+
+console.log("hi 1");
+
+function getDataFromAPI(callBack){
+
+   setTimeout(() => {
+
+      callBack("sandra");
+      
+   },2000);
+
+
+}
+
+getDataFromAPI((value)=>{
+
+   console.log(value);
+})
+
+console.log("end");
