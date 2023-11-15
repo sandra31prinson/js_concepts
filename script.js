@@ -582,7 +582,21 @@ let student=[
 //    console.log(arr[i]);
 //   }
 
-arr.forEach((value,array,index)=>console.log(value));
+// arr.forEach((value,array,index)=>console.log(value));
+
+
+
+
+// ------map methode-----
+
+
+const newArray = student.map((value)=>value.place)
+
+console.log(newArray);
+
+
+const dete = arr.map((value)=>value);
+console.log(dete)
 
 
 
