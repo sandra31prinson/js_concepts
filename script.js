@@ -620,8 +620,30 @@ let student=[
 // ------find-----
 
 
-const neArray = student.find((value)=>value.id ==='sandra');
+// const neArray = student.find((value)=>value.id ==='sandra');
 
-console.log(neArray);
+// console.log(neArray);
 
 
+// ------sort-----
+
+
+
+const sortArray=['sandra','steevo','prinson','tessy'];
+
+const numberSort=[15,52,23,58,96,12,25];
+
+numberSort.sort();
+console.log(numberSort);
+
+
+const numSort=[5,8,10,12,14,16,58,98,79,49,56]
+
+const sortedArray=numSort.sort((a,b)=>a-b);
+
+console.log(sortedArray);
+
+
+sortArray.sort();
+
+console.log(sortArray);
