@@ -629,21 +629,30 @@ let student=[
 
 
 
-const sortArray=['sandra','steevo','prinson','tessy'];
+// const sortArray=['sandra','steevo','prinson','tessy'];
 
-const numberSort=[15,52,23,58,96,12,25];
+// const numberSort=[15,52,23,58,96,12,25];
 
-numberSort.sort();
-console.log(numberSort);
-
-
-const numSort=[5,8,10,12,14,16,58,98,79,49,56]
-
-const sortedArray=numSort.sort((a,b)=>a-b);
-
-console.log(sortedArray);
+// numberSort.sort();
+// console.log(numberSort);
 
 
-sortArray.sort();
+// const numSort=[5,8,10,12,14,16,58,98,79,49,56]
 
-console.log(sortArray);
+// const sortedArray=numSort.sort((a,b)=>a-b);
+
+// console.log(sortedArray);
+
+
+// sortArray.sort();
+
+// console.log(sortArray);
+
+
+
+// -------------es10 syntax-----
+
+
+const  nextedArray =[15,20,[25,35],21,33];
+
+console.log(nextedArray.flat(Infinity));
