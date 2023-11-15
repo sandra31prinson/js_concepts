@@ -572,9 +572,15 @@ let student=[
    //    console.log(student[i]);
    // }
 
-   student.forEach((value,index,Array)=>console.log(value.id));
+   // student.forEach((value,index,Array)=>console.log(value.id));
 
-  
+  let arr=['sandra','steevo','prinson','tessy'];
+
+  for(let i=0; i<arr.length;i++)
+  {
+
+   console.log(arr[i]);
+  }
 
 
 
