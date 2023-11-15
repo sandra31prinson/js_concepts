@@ -576,12 +576,13 @@ let student=[
 
   let arr=['sandra','steevo','prinson','tessy'];
 
-  for(let i=0; i<arr.length;i++)
-  {
+//   for(let i=0; i<arr.length;i++)
+//   {
 
-   console.log(arr[i]);
-  }
+//    console.log(arr[i]);
+//   }
 
+arr.forEach((value,array,index)=>console.log(value));
 
 
 
