@@ -601,10 +601,20 @@ let student=[
 
 
 // -----fillter-----
-const newArray = student.filter((value)=>value.id==='sandra'&& value.age===22);
+// const newArray = student.filter((value)=>value.id==='sandra'&& value.age===22);
 
-console.log(newArray);
+// console.log(newArray);
 
+
+
+// -----reduce----
+
+
+const arra =[10,150,25,13,36];
+
+const neArray = arra.reduce((value,total)=> value+total,0);
+
+console.log(neArray);
 
 
 
