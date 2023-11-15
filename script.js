@@ -610,13 +610,18 @@ let student=[
 // -----reduce----
 
 
-const arra =[10,150,25,13,36];
+// const arra =[10,150,25,13,36];
 
-const neArray = arra.reduce((value,total)=> value+total,0);
+// const neArray = arra.reduce((value,total)=> value+total,0);
+
+// console.log(neArray);
+
+
+// ------find-----
+
+
+const neArray = student.find((value)=>value.id ==='sandra');
 
 console.log(neArray);
-
-
-
 
 
