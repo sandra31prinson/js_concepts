@@ -541,30 +541,30 @@
 
 
 
-let student=[
-{
+// let student=[
+// {
    
-      id:'sandra',
-      age:22,
-      place:'thrissur'
-},
-      {
-         id:'steevo',
-         age:19,
-         place:'thrissur'
+//       id:'sandra',
+//       age:22,
+//       place:'thrissur'
+// },
+//       {
+//          id:'steevo',
+//          age:19,
+//          place:'thrissur'
      
-      },
+//       },
 
-      {
-         id:'prinson',
-         age:52,
-         place:'thrissur'
+//       {
+//          id:'prinson',
+//          age:52,
+//          place:'thrissur'
      
-      }
+//       }
 
 
   
-   ]
+//    ]
 
 
    // for(let i=0; i<student.length; i++)
@@ -574,7 +574,7 @@ let student=[
 
    // student.forEach((value,index,Array)=>console.log(value.id));
 
-  let arr=['sandra','steevo','prinson','tessy'];
+//   let arr=['sandra','steevo','prinson','tessy'];
 
 //   for(let i=0; i<arr.length;i++)
 //   {
@@ -661,19 +661,26 @@ let student=[
 
 // -------es10 chaining-----------
 
-const employee={
+// const employee={
 
-   id:1,
-   name:'sanjay',
-   place:'thrissur',
-   company:{
-      comName:'woxro'
-   }
+//    id:1,
+//    name:'sanjay',
+//    place:'thrissur',
+//    company:{
+//       comName:'woxro'
+//    }
 
-}
-   if(employee?.company?.comName);
-   {
-      console.log(employee.company.comName);
+// }
+//    if(employee?.company?.comName);
+//    {
+//       console.log(employee.company.comName);
 
-   }
+//    }
+//  document.querySelector(".dom").style.color="green";
 
+
+console.log('hiiiii');
+
+
+
+setTimeout(()=>console.log('sandra'),5000);
