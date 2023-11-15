@@ -601,7 +601,7 @@ let student=[
 
 
 // -----fillter-----
-const newArray = student.filter((value)=>value.id==='sandra');
+const newArray = student.filter((value)=>value.id==='sandra'&& value.age===22);
 
 console.log(newArray);
 
