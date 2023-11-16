@@ -745,17 +745,20 @@
 // })
 
 
+// -------rejection-----
+
 const promise =new Promise((resolve,reject)=>{
 
-   setTimeout(()=>{
 
-      resolve("success!");
-   },2000 )
+      reject("failed!");
 
-   
 })
 
 promise.then((res)=>{
 
    console.log(res);
 })
+
+.catch((Error) => {
+   console.log(Error)
+});
