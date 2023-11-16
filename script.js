@@ -690,22 +690,44 @@
 // ----------callbacks------
 
 
-console.log("hi 1");
+// console.log("start");
 
-function getDataFromAPI(callBack){
+// function steeevo(callBack){
 
-   setTimeout(() => {
+//    setTimeout(()=>{
 
-      callBack("sandra");
+//       callBack("sandra");
+//    },3000);
       
-   },2000);
+   
+
+// }
+
+// steeevo((value)=>{
+    
+//    console.log(value);
+// })
 
 
-}
 
-getDataFromAPI((value)=>{
 
-   console.log(value);
+
+// console.log("end");
+
+
+
+// -------promise------
+
+
+const promise = new Promise(( resolve, reject)=>{
+
+   resolve("sucess");
+
 })
 
-console.log("end");
+ promise.then((response)=>{
+
+   console.log(response);
+
+ })
+
