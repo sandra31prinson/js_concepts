@@ -719,15 +719,43 @@
 // -------promise------
 
 
-const promise = new Promise(( resolve, reject)=>{
+// const promise = new Promise((resolve, reject)=>{
 
-   resolve("sucess");
+//    resolve("success!");
+// })
 
+// promise.then((res)=>{
+
+//    console.log(res);
+// })
+
+
+// function callBackFunction(callBack){
+
+//    setTimeout(()=>{
+//       callBack("hello call back")
+
+//    },2000)
+// }
+
+
+// callBackFunction((value)=>{
+
+//    console.log(value);
+// })
+
+
+const promise =new Promise((resolve,reject)=>{
+
+   setTimeout(()=>{
+
+      resolve("success!");
+   },2000 )
+
+   
 })
 
- promise.then((response)=>{
+promise.then((res)=>{
 
-   console.log(response);
-
- })
-
+   console.log(res);
+})
